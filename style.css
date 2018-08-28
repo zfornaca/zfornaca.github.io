@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vw 0 3vw;
+  box-sizing: border-box;
+  z-index: 100;
+  background-color: white;
+  height: 50px;
+  /* padding: 12px;
+  border: 1px solid gray;
+  background-color: antiquewhite;
+  width: calc(100vw-24px);
+  height: 130px; */
+}
+
+.title {
+  font-family: 'Francois One', sans-serif;
+  margin: 6px 0;
+}
+
+.main-body {
+  padding-top: 50px;
+}
+
+.splash-of-coffee {
+  border: 1px solid gray;
+  background-color: antiquewhite;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffee-image {
+  width: 2000px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.body-feed {
+  padding: 3vw;
+}
+
+.body-text {
+  font-family: 'Lato', sans-serif;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .about-me {
+    flex-wrap: wrap;
+  }
+  .proficiencies {
+    width: 100%;
+  }
+}
+
+.headshot {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+
+.headshot-image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
