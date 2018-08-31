@@ -94,13 +94,15 @@ body {
   max-height: 400px;
 }
 
-ul {
+ul,
+.contact-list {
   padding-left: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-li {
+li,
+.contact-item {
   list-style: none;
   display: inline-block;
   border: 1px solid black;
@@ -214,4 +216,14 @@ h2.title-name {
   position: relative;
   top: -50px;
   visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-link {
+  display: inline-block;
+  width: 140px;
 }

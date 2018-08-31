@@ -13,12 +13,12 @@
 
 <body>
   <div class="navbar">
-    <h1 class="title title-name">Zack Fornaca</h1>
+    <h1 class="title title-name"><a href="#home">Zack Fornaca</a></h1>
     <div class="long-menu">
-      <h2 class="title title-name">Home</h2>
+      <h2 class="title title-name"><a href="#home">Home</a></h2>
       <h2 class="title title-name"><a href="#about-me">About</a></h2>
-      <h2 class="title title-name">Portfolio</h2>
-      <h2 class="title title-name">Contact</h2>
+      <h2 class="title title-name"><a href="#portfolio">Portfolio</a></h2>
+      <h2 class="title title-name"><a href="#contact">Contact</a></h2>
     </div>
     <div class="dropdown">
       <div class="dropdown-button">
@@ -27,13 +27,15 @@
         <div class="burger-line"></div>
       </div>
       <div class="dropdown-menu">
-        <div class="dropdown-item">Home</div>
-        <div class="dropdown-item"><a href="#about-me">About</a></div>
-        <div class="dropdown-item">Portfolio</div>
-        <div class="dropdown-item">Contact</div>
+        <div class="dropdown-item"><a href="#home" class="dropdown-link">Home</a></div>
+        <!-- <a href="#home" class="dropdown-link"><div class="dropdown-item">Home</div></a> -->
+        <div class="dropdown-item"><a href="#about-me" class="dropdown-link">About</a></div>
+        <div class="dropdown-item"><a href="#portfolio" class="dropdown-link">Portfolio</a></div>
+        <div class="dropdown-item"><a href="#contact" class="dropdown-link">Contact</a></div>
       </div>
     </div>
   </div>
+  <a name="home"></a>
   <div class="main-body">
 
     <div class="splash-of-coffee">
@@ -72,6 +74,7 @@
       </ul>
     </div>
   </div>
+  <a name="portfolio"></a>
   <div class="portfolio body-feed">
     <h2 class="title">Portfolio</h2>
     <div class="portfolio-list">
@@ -83,15 +86,16 @@
     </div>
 
   </div>
+  <a name="contact"></a>
   <div class="contact body-feed">
 
     <h2 class="title">Contact</h2>
     <div class="contact-list">
-      <div class="contact-item">Github</div>
-      <div class="contact-item">Email</div>
-      <div class="contact-item">LinkedIn</div>
-      <div class="contact-item">AngelList</div>
-      <div class="contact-item">Twitter</div>
+      <div class="contact-item"><a href="https://github.com/zfornaca" target="_blank">Github</a></div>
+      <div class="contact-item"><a href="mailto:zfornaca@gmail.com">Email</a></div>
+      <div class="contact-item"><a href="https://www.linkedin.com/in/zfornaca/" target="_blank">LinkedIn</a></div>
+      <div class="contact-item"><a href="https://angel.co/zack-fornaca" target="_blank">AngelList</a></div>
+      <div class="contact-item"><a href="https://twitter.com/zfornaca" target="_blank">Twitter</a></div>
     </div>
   </div>
   </div>
