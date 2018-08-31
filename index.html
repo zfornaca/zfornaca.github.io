@@ -14,17 +14,35 @@
 <body>
   <div class="navbar">
     <h1 class="title title-name">Zack Fornaca</h1>
-    <h1 class="title title-name">Mn</h1>
-    <!-- <div class="menu">Menu</div> -->
+    <div class="long-menu">
+      <h2 class="title title-name">Home</h2>
+      <h2 class="title title-name"><a href="#about-me">About</a></h2>
+      <h2 class="title title-name">Portfolio</h2>
+      <h2 class="title title-name">Contact</h2>
+    </div>
+    <div class="dropdown">
+      <div class="dropdown-button">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </div>
+      <div class="dropdown-menu">
+        <div class="dropdown-item">Home</div>
+        <div class="dropdown-item"><a href="#about-me">About</a></div>
+        <div class="dropdown-item">Portfolio</div>
+        <div class="dropdown-item">Contact</div>
+      </div>
+    </div>
   </div>
   <div class="main-body">
 
     <div class="splash-of-coffee">
       <img class="coffee-image" src="./images/coffee-placeholder.jpg" />
     </div>
-    <div class="about-me">
+    <a name="about-me"></a>
+    <div class="about-me body-feed">
 
-      <div class="summary body-feed">
+      <div class="summary">
         <h2 class="title">About me</h2>
         <span class="body-text">I'm the best ever. I'm the most brutal and vicious, and most ruthless champion there's ever
           been. There's no one can stop me. Lennox is a conqueror? No, I'm Alexander, he's no Alexander. I'm the best ever.
@@ -33,27 +51,48 @@
           I want your heart. </span>
       </div>
 
-      <div class="headshot body-feed">
+      <div class="headshot">
         <img class="headshot-image" src="./images/zack.jpg">
       </div>
-      <div class="proficiencies body-feed">
-        <h2 class="title">Skillset</h2>
-        <ul>
-          <li>JS</li>
-          <li>Python</li>
-          <li>Tyson quotes</li>
-          <li>PostgreSQL</li>
-        </ul>
-      </div>
+    </div>
+    <div class="proficiencies body-feed">
+      <h2 class="title">Technologies</h2>
+      <ul>
+        <li>JavaScript (ES6)</li>
+        <li>React</li>
+        <li>React Native</li>
+        <li>Redux</li>
+        <li>Python</li>
+        <li>jQuery</li>
+        <li>HTML5</li>
+        <li>Node</li>
+        <li>Express</li>
+        <li>Ruby on Rails</li>
+        <li>PostgreSQL</li>
+      </ul>
     </div>
   </div>
   <div class="portfolio body-feed">
     <h2 class="title">Portfolio</h2>
+    <div class="portfolio-list">
+      <div class="portfolio-item">(React Native project)</div>
+      <div class="portfolio-item">(D3 project)</div>
+      <div class="portfolio-item">(LinkedList)</div>
+      <div class="portfolio-item">(Hack or Snooze)</div>
+      <div class="portfolio-item">(Snake game)</div>
+    </div>
 
   </div>
   <div class="contact body-feed">
 
     <h2 class="title">Contact</h2>
+    <div class="contact-list">
+      <div class="contact-item">Github</div>
+      <div class="contact-item">Email</div>
+      <div class="contact-item">LinkedIn</div>
+      <div class="contact-item">AngelList</div>
+      <div class="contact-item">Twitter</div>
+    </div>
   </div>
   </div>
 
